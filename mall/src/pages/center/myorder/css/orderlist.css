@@ -1,0 +1,156 @@
+.allorders,.forshiporder,.beevaluated,.pending,.tobereceived{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+  top: 84px;
+  left: 0;
+}
+.no_order{
+  display: none;
+ position: absolute;
+  width: 150px;
+  height: 150px;
+  left:50%;
+  top: 50%;
+  margin: -75px 0 0 -75px;
+  z-index: 100;
+}
+.no_order p{
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
+  color: #888;
+  margin-top: 20px;
+}
+.no_order_img{
+  background: url("../../../../../static/img/mall/no_order.png") center top no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.allorders_list{
+  overflow: hidden;
+  width: 100%;
+  padding-bottom: 80px;
+}
+.order_list{
+  background: #fff;
+  margin-bottom: 5px;
+  margin-top: 5px;
+}
+.forship_name h2{
+  font-size: 14px;
+  line-height: 30px;
+  border-bottom: 1px solid #e0e0e0;
+  color:#FA5037;
+  padding:0 10px;
+}
+/*第二栏*/
+.forship_detail{
+  padding: 10px 10px;
+}
+.scale_img{
+  width: 80px;
+  height: 80px;
+  float: left;
+}
+.scale_img img{
+  width: 100%;
+  height: 100%;
+}
+.product_detail{
+  margin-left: 85px;
+  height: 80px;
+}
+.product_detail_left{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden;
+  margin-right: 40px;
+  height: 100%;
+}
+.product_detail_left h4{
+  font-size: 14px;
+  line-height:20px;
+}
+.product_detail_left p,.product_detail_left p span{
+  font-size: 12px;
+  line-height: 20px;
+  color: #999;
+
+}
+
+.product_detail_right {
+  float:right;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.product_detail_right h3,.product_detail_right del,.product_detail_right del span{
+  font-size: 14px;
+  color:#999;
+  line-height: 20px;
+}
+.product_detail_right p{
+   font-size: 14px;
+  line-height: 18px;
+}
+.product_detail_right h4,.product_detail_right h4 span{
+  font-size: 14px;
+  line-height: 18px;
+  color: #999;
+}
+/*邮费*/
+.post{
+    text-align: right;
+}
+.post p{
+  padding: 5px 10px;
+  color:#888;
+  font-size: 14px;
+  line-height: 30px;
+  border-bottom: 1px solid #e0e0e0;
+  border-top:1px solid #e0e0e0 ;
+}
+.post p span,.post p i{
+  color:#888;
+  font-style: normal;
+  font-size: 14px;
+  line-height: 30px;
+}
+.post p span,.post p span b{
+  color:#FA5037;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 30px;
+}
+/*收货*/
+.takeover{
+  text-align: right;
+  padding: 10px;
+}
+.takeoverq{
+  border-radius:3px;
+  display: inline-block;
+  background-color: #FA5037;
+  color: #fff;
+  font-size: 14px;
+  line-height: 30px;
+  padding: 2px;
+  width: 80px;
+  text-align: center;
+}
+.takeoverc{
+  border-radius:3px;
+  display: inline-block;
+  background-color: #cccccc;
+  color: #fff;
+  font-size: 14px;
+  line-height: 30px;
+  padding: 2px;
+  width: 80px;
+  text-align: center;
+}

@@ -1,0 +1,289 @@
+.login{
+  position: fixed;
+  background: rgb(255,255,255);
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+}
+.login_body{
+  height: 100%;
+}
+.container ul li ::-webkit-input-placeholder{
+  font-size: 16px;
+  line-height: 24px;
+  text-align: left;
+}
+.container ul li ::-moz-placeholder{
+  font-size: 16px ;
+  line-height: 24px;
+  text-align: left;
+}
+.container ul li :-ms-input-placeholder{
+  font-size: 16px ;
+  line-height: 24px;
+  text-align: left;
+}
+.menu_top{
+  padding:15px 10px 10px 10px;
+  display: flex;
+}
+.menu_top  .login_left{
+  margin-top: 4px;
+  flex: 0 0 16px;
+  display: inline-block;
+  width: 16px;
+  height:16px;
+  background: url("../../../../static/img/mall/close.png") 0 0 no-repeat;
+  background-size: cover;
+  vertical-align: top;
+}
+.menu_top p,.menu_top h4{
+  flex: 1 1 auto;
+  text-align:center;
+  font-size: 16px;
+  line-height:24px;
+  color: rgb(0,0,0);
+  overflow-x: auto;
+  margin-left: 50px;
+  margin-right: 24px;
+}
+.menu_top h4{
+  margin-left: 50px;
+}
+.menu_top .inner{
+  flex: 0 0 60px;
+  font-size: 14px;
+  line-height:24px;
+  color:rgb(255,96,96);
+}
+/*输入名称*/
+.container{
+  padding: 40px 30px;
+}
+.container ul li{
+  border-bottom: 1px solid #eee;
+  padding: 10px;
+  display: flex;
+  justify-content: flex-start;
+}
+.container ul li input{
+  flex: 1 1 auto;
+  font-size: 16px ;
+  line-height: 24px;
+  border: 0;
+  outline: none;
+  margin-left: 5px;
+  vertical-align: top;
+}
+.cellphone{
+  vertical-align: top;
+  display: inline-block;
+  flex:0 0 24px;
+  width: 24px;
+  height:24px;
+  color: #999;
+  background:url("../../../../static/img/mall/phone.png") 0 0 no-repeat;
+  background-size: cover;
+}
+.lock{
+  display: inline-block;
+  width:24px;
+  height:24px;
+  background:url("../../../../static/img/mall/lock.png") 0 0 no-repeat;
+  background-size: cover;
+  vertical-align: top;
+}
+/*登录按钮*/
+.login_container .demo-raised-button,.register_button .demo-raised-button,.code_button .demo-raised-button{
+  width: 100%;
+  color:#fff;
+}
+.login_container .mu-raised-button,.register_button .mu-raised-button,.code_button .mu-raised-button{
+  line-height: 40px;
+  height: 40px;
+}
+.login_container .mu-raised-button-primary,.register_button .mu-raised-button-primary,.code_button .mu-raised-button-primary{
+  background: #bbbbbb;
+  border-radius:5px;
+}
+.mu-raised-button-label{
+  color:#fff;
+}
+.login_container{
+  margin-top: 40px;
+}
+.login_button{
+  width: 100%;
+  border-radius:5px;
+  text-align: center;
+  background: #bbbbbb;
+  color:#fff;
+  font-size:16px;
+  line-height:35px;
+  outline: none;
+  border: 0;
+}
+.red_button{
+  background: #FA5037;
+}
+.login_password{
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-between;
+}
+.login_password a{
+  font-size: 14px;
+  line-height: 24px;
+  color:#999!important;
+}
+.login_bottom,.login_prompt{
+  padding: 30px 50px;
+  text-align: center;
+}
+.login_bottom p{
+  font-size: 14px;
+  line-height: 24px;
+  color:#999;
+  text-align: center;
+}
+.login_bottom span{
+  display: inline-block;
+  width:40px;
+  height:40px;
+  background:url("../../../../static/img/mall/wechat.png") 0 0 no-repeat;
+  background-size: cover;
+}
+.login_prompt p{
+  background: rgb(117, 117, 117);
+  color: rgb(255,255,255);
+  font-size: 16px;
+  line-height: 40px;
+  border-radius: 24px;
+  margin-bottom: 5px;
+}
+/*注册*/
+.register{
+  position: fixed;
+  height: 100%;
+  width: 100%;
+  top:0;
+  left: 0;
+  background: rgb(255,255,255);
+}
+.register_body{
+  padding:30px 40px;
+}
+.code{
+  vertical-align: top;
+  display: inline-block;
+  width: 24px;
+  height:24px;
+  line-height: 30px;
+  color: #999;
+  background:url("../../../../static/img/mall/code.png") 0 0 no-repeat;
+  background-size: cover;
+}
+.register ul li input{
+  font-size: 16px ;
+  line-height: 24px;
+  border: 0;
+  outline: none;
+  margin-left: 5px;
+  vertical-align: top;
+}
+.register_body ul li {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 8px 0;
+}
+.register_body ul li input{
+  font-size: 16px ;
+  line-height: 24px;
+  border: 0;
+  outline: none;
+  margin-left: 5px;
+  vertical-align: top;
+  flex: 1 1 auto;
+}
+.register_body ul .register_code{
+  justify-content: space-between;
+  padding: 10px 0;
+}
+.code_input{
+  width: 80px;
+}
+.register_body ul li ::-webkit-input-placeholder{
+  font-size: 16px ;
+  line-height: 24px;
+  text-align: left;
+}
+.register_body ul li  ::-moz-placeholder{
+  font-size: 16px ;
+  line-height: 24px;
+}
+.register_body ul li :-ms-input-placeholder{
+  font-size: 16px ;
+  line-height: 24px;
+}
+.register_code p{
+  display: flex;
+  flex: 1 1 auto;
+  padding: 5px 0;
+  justify-content: flex-start;
+  align-items: center;
+  border-bottom: 1px solid #eee;
+}
+.getcode {
+  float: right;
+  display: inline-block;
+  background: #FA5037;
+  color: #fff;
+  outline: none;
+  border: 0;
+  font-size: 14px;
+  line-height: 14px;
+  border-radius: 5px;
+  padding: 10px 5px;
+}
+.input_cellphone,.input_password{
+  border-bottom: 1px solid #eee;
+}
+.register_button{
+  padding:10px 40px;
+}
+.r_word{
+  font-size: 12px;
+  line-height: 18px;
+  margin-bottom: 5px;
+}
+.r_word span{
+  color:#ff6060;
+  font-size: 12px;
+  line-height: 18px;
+}
+.r_button{
+  margin-top: 10px;
+  text-align: center;
+  border-radius: 5px;
+  font-size: 16px;
+  line-height: 35px;
+  color:#fff;
+  background: #bbbbbb;
+}
+/*底部通用样式*/
+.red_button{
+  background: #ff6060!important;
+  box-shadow: 2px 2px 2px rgba(0,0,0,0.4);
+}
+.disabledstyle{
+  background: #bbb;
+  color: #757575;
+}
+.prompt_out-enter,.prompt_out-leave-active{
+  opacity: 0;
+}
+.prompt_out-enter-active,.prompt_out-leave-active{
+  transition: all .28s ease-out .1s;
+}

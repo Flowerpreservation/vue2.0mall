@@ -1,0 +1,117 @@
+.member_user,.member_name,.member_phone,.member_email,.member_birth,.update_addr{
+  position:fixed;
+  width: 100%;
+  height: 100%;
+  background: #eee;
+  z-index: 600;
+}
+.member_ms .router-link-active{
+    /*color:#000;*/
+}
+/*昵称修改*/
+.member_update_name{
+  position: fixed;
+  top:50px;
+  left: 0;
+  padding:10px;
+  width: 100%;
+  background: #fff;
+}
+.member_update_name input{
+  border:0;
+  font-size: 16px;
+  line-height: 30px;
+  outline: none;
+  width: 100%;
+}
+/*修改性别*/
+.sex{
+  position: fixed;
+  top:50px;
+  left: 0;
+  padding:10px;
+  width: 100%;
+  background: #fff;
+}
+.member_user .u_top .go_back{
+  flex:0 1 20px;
+  font-size: 16px;
+   color: #ff2828;;
+}
+.select_i{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url("../../../../../static/img/mall/radio_icon.png") no-repeat;
+  background-size: 40px;
+  background-position: right 0;
+}
+.select_sex{
+  font-size: 16px;
+  line-height: 20px;
+}
+.sex_select{
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px #ccc solid;
+}
+.sex_select_x{
+  padding: 10px 0;
+  display: flex;
+  justify-content: space-between;
+}
+.selected_icon{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  background: url("../../../../../static/img/mall/radio_icon.png") no-repeat;
+  background-size: 20px;
+  background-position: right 0;
+}
+/*修改号码*/
+.phone_number,.phone_email,.phone_birth,.phone_addr{
+  position: fixed;
+  top:50px;
+  left: 0;
+  padding:10px;
+  width: 100%;
+  background: #fff;
+}
+.phone_number input,.phone_email input,.phone_birth input,.phone_addr input{
+  border:0;
+  font-size: 16px;
+  line-height: 30px;
+  outline: none;
+  width: 100%;
+}
+/*头部*/
+.u_top{
+  position: fixed;
+  top:0;
+  left: 0;
+  width: 100%;
+  z-index: 500;
+  display: flex;
+  padding: 10px;
+  background:#FFF;
+  border-bottom:1px solid #e0e0e0;
+}
+.u_top p,.u_top span{
+  text-align: center;
+  font-size: 16px;
+  line-height: 24px;
+}
+.u_top span{
+  flex:0 1 40px;
+}
+.back{
+  color: #ff2828;
+}
+.keep{
+  color: #c7c7c7;
+}
+.u_top p{
+  flex:1 1 auto ;
+}
+

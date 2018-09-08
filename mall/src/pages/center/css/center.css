@@ -1,0 +1,280 @@
+.router-fade-enter-active, .router-fade-leave-active {
+  transition: opacity .3s;
+}
+.router-fade-enter, .router-fade-leave-active {
+  opacity: 0;
+}
+.center{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+.center_contanier{
+  padding-top: 44px;
+ padding-bottom: 44px;
+  background-color: #eee;
+}
+.center_wrapper{
+  position: fixed;
+  width: 100%;
+  height: 100%;
+}
+.center_name{
+  width: 100%;
+  height: 180px;
+  background: url("../../../../static/img/mall/center/my_background.png") no-repeat center top;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+.center_name dl{
+  text-align: center;
+  padding: 20px 10px;
+}
+.head_icon{
+  display: flex;
+  justify-content: space-between;
+}
+.center_i{
+  width:60px;
+  height:60px;
+  background: url("../../../../static/img/mall/center/header.png") no-repeat center top;
+  background-size: cover;
+  margin-left: 10px;
+}
+.center_n{
+  display: block;
+  font-size: 16px;
+  line-height: 20px;
+  color: #fff;
+}
+.setting_link{
+  display: inline-block;
+  position: absolute;
+  top:20px;
+  right: 10px;
+}
+.setting{
+  display: inline-block;
+  /*position: absolute;*/
+  /*top:10px;*/
+  /*right: 10px;*/
+  width: 24px;
+  height: 24px;
+  background: url("../../../../static/img/mall/center/set_up.png") no-repeat center top;
+  background-size: cover;
+}
+.register_btn{
+  margin-top: 10px;
+  display: inline-block;
+  color: #fff;
+  padding: 6px;
+  font-size: 14px;
+  line-height: 18px;
+  border-radius: 3px;
+  border: 1px solid #fff;
+}
+/*收藏*/
+.cneter_score{
+  display: flex;
+  padding: 8px 0;
+  background: rgba(0,0,0,0.1);
+}
+.cneter_score a{
+  flex: 1;
+  text-align: center;
+
+}
+.cneter_score span{
+  display: inline-block;
+  font-size: 14px;
+  line-height: 26px;
+  color:#fff;
+  vertical-align: top;
+}
+.integral,.Collection,.Aftersale{
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  vertical-align: top;
+}
+.integral{
+  background: url("../../../../static/img/mall/center/integral.png") no-repeat center top;
+  background-size: cover;
+}
+.Collection{
+  background: url("../../../../static/img/mall/center/my_collection.png") no-repeat center top;
+  background-size: cover;
+}
+.Aftersale{
+  background: url("../../../../static/img/mall/center/customer_service.png") no-repeat center top;
+  background-size: cover;
+}
+/*我的订单*/
+.myorder{
+  background-color: #fff;
+  margin-top: 5px;
+}
+.myorder ul li{
+  padding: 8px 10px;
+
+}
+.myorder ul li dd{
+  font-size: 14px;
+  line-height: 20px;
+}
+.order_center{
+  border-bottom: 1px solid #ccc;
+}
+.order_center .opinion{
+  /*border-bottom: 0;*/
+}
+.order_center a{
+  display: block;
+}
+.order_center span{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url("../../../../static/img/mall/center/my_order.png") no-repeat center top;
+  background-size: cover;
+  float: left;
+}
+.order_center p{
+  font-size: 16px;
+  line-height: 30px;
+  overflow: hidden;
+  margin-left: 45px;
+}
+.myorder ul li:first-child i{
+  display: inline-block;
+  text-align: center;
+  width: 14px;
+  height: 14px;
+  background-size: cover;
+  float: right;
+  font-size: 14px;
+  line-height: 30px;
+  color:#888;
+  z-index: 500;
+}
+/*付款*/
+.order_service{
+  display: flex;
+}
+.order_service a{
+  flex: 1;
+  text-align: center;
+}
+.order_service dl dt{
+  text-align: center;
+}
+.paring_icon{
+  display: inline-block;
+  position: relative;
+}
+.paring,.ship,.deliver,.receipt{
+  display: inline-block;
+  width:30px;
+  height: 30px;
+}
+.paring{
+  background: url("../../../../static/img/mall/center/pending_payment.png") no-repeat center top;
+  background-size:cover ;
+}
+.ship{
+  background: url("../../../../static/img/mall/center/waiting-for_delivery.png") no-repeat center top;
+  background-size:cover ;
+}
+.deliver{
+  background: url("../../../../static/img/mall/center/receiving_goods.png") no-repeat center top;
+  background-size:cover ;
+}
+.receipt{
+  background: url("../../../../static/img/mall/center/pending_evaluation.png") no-repeat center top;
+  background-size:cover ;
+}
+.count{
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background: #ff6060;
+  color: #fff;
+  border-radius:50%;
+  text-align: center;
+  font-size: 12px;
+  line-height: 16px;
+  position: absolute;
+  top: -2px;
+  right: -10px;
+}
+/*主体*/
+.center_body{
+  margin-top: 5px;
+  background: #fff;
+}
+
+.center_body ul li{
+  padding: 8px 10px;
+}
+.center_body ul li{
+  border-bottom: 1px solid #ccc;
+}
+.center_body ul li a{
+  display: block;
+}
+.center_body ul .li_opinion{
+  border-bottom: 0;
+}
+.center_body ul li i{
+  display: inline-block;
+  text-align: center;
+  width: 14px;
+  height: 14px;
+  float: right;
+  font-size: 14px;
+  line-height: 30px;
+  color:#888;
+}
+.center_body ul li:nth-child(1) span{
+  background: url("../../../../static/img/mall/center/My-coupon.png") no-repeat center top;
+  background-size: cover;
+
+}
+.center_body ul li:nth-child(2) span{
+  background: url("../../../../static/img/mall/center/my_-wallet.png") no-repeat center top;
+  background-size: cover;
+}
+.center_body ul li:nth-child(3) span{
+  background: url("../../../../static/img/mall/center/my_comments.png") no-repeat center top;
+  background-size: cover;
+}
+.center_body ul li:nth-child(4) span{
+  background: url("../../../../static/img/mall/center/my_address.png") no-repeat center top;
+  background-size: cover;
+}
+.center_body ul li:nth-child(5) span{
+  background: url("../../../../static/img/mall/center/help.png") no-repeat center top;
+  background-size: cover;
+}
+.center_body ul li:nth-child(6) span{
+  background: url("../../../../static/img/mall/center/feedback.png") no-repeat center top;
+  background-size: cover;
+}
+.center_body ul li p{
+  font-size: 16px;
+  line-height: 30px;
+  overflow: hidden;
+  margin-left: 45px;
+}
+.center_body ul li span{
+  display: inline-block;
+  width: 30px;
+  height: 30px;
+  background: url("../../../../static/img/mall/arrow.png") no-repeat center top;
+  background-size: cover;
+  float:left ;
+}
+

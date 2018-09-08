@@ -1,0 +1,513 @@
+{
+  "centerName": {
+    "Image": "",
+    "Name": "小明",
+    "numbering": "1002",
+    "city": "连营",
+    "phone": "13546897569",
+    "email": "yunying@xiongmao100.cn",
+    "address": "华宝一号"
+  },
+  "product":
+      [
+        {
+            "Name": "蜂蜜",
+            "Description": "来自云贵高云3000米以上，大山深处的瑰宝",
+              "Price": 49,
+              "originalprice": 59,
+             "sales": 199,
+              "post": "包邮",
+             "Stock": 50,
+              "minprice": 50,
+              "maxprice": 89,
+              "Image": "//img12.360buyimg.com/n1/jfs/t3961/352/1275511117/226821/75b39fcf/586f5c9eNd1834c04.jpg",
+              "images": ["//img12.360buyimg.com/n1/jfs/t3961/352/1275511117/226821/75b39fcf/586f5c9eNd1834c04.jpg","//img11.360buyimg.com/n1/jfs/t3796/314/1254481081/139163/403a266/5821471bN0e4b67cc.jpg"],
+              "type":[
+              {
+                 "Name":"桂花蜜",
+                  "weight": 450,
+                  "Price": 59,
+                  "oldprice":79,
+                  "count":1,
+                  "no":1002,
+                  "isDefault": true
+               },
+                {
+                "Name":"槐花蜜",
+                  "weight": 300,
+                  "Price": 50,
+                  "oldprice":69,
+                  "count":1,
+                  "no":1003,
+                  "isDefault": false
+            },
+                {
+                  "Name":"紫云蜜",
+                  "weight": 250,
+                  "Price": 50,
+                  "oldprice":59,
+                  "count":1,
+                  "no":1004,
+                  "isDefault": false
+                },
+                {
+                "Name":"白蜜",
+                "weight": 300,
+                  "Price": 89,
+                  "oldprice":90,
+                "count":1,
+                "no":1005,
+                "isDefault": false
+                }
+          ]
+        },
+        {
+          "Name": "白茶",
+          "Description": "一款性价比超高的福鼎白茶饼，于2014年生产，已陈放2年，饼色深绿之间微泛棕褐色，足以证明开始转化。",
+          "Price": 99,
+          "minprice": 59,
+          "maxprice": 99,
+          "originalprice": 99,
+          "sales": 99,
+          "post": "10元",
+          "Stock": 88,
+          "Image": "//img13.360buyimg.com/n1/g13/M02/0A/05/rBEhVFNg23gIAAAAAAHofexJtgQAAMsyADuFAUAAeiV322.jpg",
+          "images": ["//img13.360buyimg.com/n1/g13/M02/0A/05/rBEhVFNg23gIAAAAAAHofexJtgQAAMsyADuFAUAAeiV322.jpg","//img13.360buyimg.com/n1/jfs/t3046/179/3144429432/182963/ed3440b7/57ecc657Na2aff3fa.jpg"],
+          "type":[
+            {
+              "Name":"白茶",
+              "weight": 500,
+              "Price":99,
+              "oldprice":130,
+              "count":1,
+              "no":1002,
+              "isDefault":true
+            },
+            {
+              "Name":"白茶",
+              "weight": 300,
+              "Price": 59,
+              "oldprice":70,
+              "count":1,
+              "no":1003,
+              "isDefault":true
+            }
+          ]
+        },
+        {
+          "Name": "五芳斋速冻豆沙粽",
+          "Description": "源自北京正宗五芳斋",
+          "Price": 99,
+          "minprice": 10,
+          "maxprice": 20,
+          "originalprice": 30,
+          "sales": 99,
+          "post": "10元",
+          "Stock": 88,
+          "Image": "//img11.360buyimg.com//n0/jfs/t1879/84/1702720080/289842/22f762f0/56678768Neddcefec.jpg",
+          "images": ["//img11.360buyimg.com//n0/jfs/t1879/84/1702720080/289842/22f762f0/56678768Neddcefec.jpg","//img11.360buyimg.com/n1/jfs/t1993/214/1664371856/295130/39f1dca9/56678776N98e2ad14.jpg"],
+          "type":[
+            {
+              "Name":"豆沙",
+              "weight": 300,
+              "Price":10,
+              "oldprice":130,
+              "count":1,
+              "no":1002,
+              "isDefault":true
+            },
+            {
+              "Name":"水果馅",
+              "weight": 500,
+              "Price":20,
+              "oldprice":130,
+              "count":1,
+              "no":1002,
+              "isDefault":true
+            }
+          ]
+        },
+        {
+          "Name": "故黄果园—糖水黄桃罐头",
+          "Description": "砀山黄桃是安徽省宿州市砀山县的特产。砀山黄桃品质超群，果肉金黄，无红色素，做出的罐头不浑汤，酸甜适中。",
+          "Price": 128,
+          "minprice": 23,
+          "maxprice": 128,
+          "originalprice": 149,
+          "sales": 19,
+          "post": "5元",
+          "Stock": 90,
+          "Image": "http://www.cntc.com/images/201607/goods_img/759_G_1469844653364.jpg",
+          "images": ["http://www.cntc.com/images/201607/goods_img/759_G_1469844653364.jpg","http://www.cntc.com/images/201607/goods_img/759_P_1469844654326.jpg"],
+          "type":[
+            {
+              "Name":"糖水黄桃",
+              "weight": 300,
+              "Price": 23,
+              "oldprice":30,
+              "count":1,
+              "no":1002
+            },
+            {
+              "Name":"糖水黄桃",
+              "weight": 600,
+              "Price": 40,
+              "oldprice":49,
+              "count":1,
+              "no":1003
+            }
+          ]
+        },
+        {
+          "Name": "贵州地方特色美食品臭豆腐",
+          "Description": "野谷草红豆腐乳酶豆腐调味品 油和素两种口味 开胃下饭菜",
+          "Price": 8.8,
+          "minprice": 8.8,
+          "maxprice": 9.9,
+          "originalprice": 9.9,
+          "sales": 29,
+          "post": "包邮",
+          "Stock": 28,
+          "Image": "//img13.360buyimg.com/n1/jfs/t4555/354/2281696908/370012/6ea37e83/58edd5b1N3690414b.jpg",
+          "images": ["//img13.360buyimg.com/n1/jfs/t4555/354/2281696908/370012/6ea37e83/58edd5b1N3690414b.jpg","//img13.360buyimg.com/n1/jfs/t3889/77/1768919703/486401/ff96add6/58954ebcN4f77afff.jpg"],
+          "type":[
+            {
+              "Name":"原味",
+              "weight": 300,
+              "Price": 8.8,
+              "oldprice":9.9,
+              "count":1,
+              "no":1001
+            }
+          ]
+        },
+        {
+          "Name": "蜂蜜",
+          "Description": "来自云贵高云3000米以上，大山深处的瑰宝",
+          "Price": 49,
+          "originalprice": 59,
+          "sales": 199,
+          "post": "包邮",
+          "Stock": 50,
+          "minprice": 50,
+          "maxprice": 89,
+          "Image": "//img12.360buyimg.com/n1/jfs/t3961/352/1275511117/226821/75b39fcf/586f5c9eNd1834c04.jpg",
+          "images": ["//img12.360buyimg.com/n1/jfs/t3961/352/1275511117/226821/75b39fcf/586f5c9eNd1834c04.jpg","//img11.360buyimg.com/n1/jfs/t3796/314/1254481081/139163/403a266/5821471bN0e4b67cc.jpg"],
+          "type":[
+            {
+              "Name":"桂花蜜",
+              "weight": 450,
+              "Price": 59,
+              "oldprice":79,
+              "count":1,
+              "no":1002,
+              "isDefault": true
+            },
+            {
+              "Name":"槐花蜜",
+              "weight": 300,
+              "Price": 50,
+              "oldprice":69,
+              "count":1,
+              "no":1003,
+              "isDefault": false
+            },
+            {
+              "Name":"紫云蜜",
+              "weight": 250,
+              "Price": 50,
+              "oldprice":59,
+              "count":1,
+              "no":1004,
+              "isDefault": false
+            },
+            {
+              "Name":"白蜜",
+              "weight": 300,
+              "Price": 89,
+              "oldprice":90,
+              "count":1,
+              "no":1005,
+              "isDefault": false
+            }
+          ]
+        },
+        {
+          "Name": "白茶",
+          "Description": "一款性价比超高的福鼎白茶饼，于2014年生产，已陈放2年，饼色深绿之间微泛棕褐色，足以证明开始转化。",
+          "Price": 99,
+          "minprice": 59,
+          "maxprice": 99,
+          "originalprice": 99,
+          "sales": 99,
+          "post": "10元",
+          "Stock": 88,
+          "Image": "//img13.360buyimg.com/n1/g13/M02/0A/05/rBEhVFNg23gIAAAAAAHofexJtgQAAMsyADuFAUAAeiV322.jpg",
+          "images": ["//img13.360buyimg.com/n1/g13/M02/0A/05/rBEhVFNg23gIAAAAAAHofexJtgQAAMsyADuFAUAAeiV322.jpg","//img13.360buyimg.com/n1/jfs/t3046/179/3144429432/182963/ed3440b7/57ecc657Na2aff3fa.jpg"],
+          "type":[
+            {
+              "Name":"白茶",
+              "weight": 500,
+              "Price":99,
+              "oldprice":130,
+              "count":1,
+              "no":1002,
+              "isDefault":true
+            },
+            {
+              "Name":"白茶",
+              "weight": 300,
+              "Price": 59,
+              "oldprice":70,
+              "count":1,
+              "no":1003,
+              "isDefault":true
+            }
+          ]
+        },
+        {
+          "Name": "五芳斋速冻豆沙粽",
+          "Description": "源自北京正宗五芳斋",
+          "Price": 99,
+          "minprice": 10,
+          "maxprice": 20,
+          "originalprice": 30,
+          "sales": 99,
+          "post": "10元",
+          "Stock": 88,
+          "Image": "//img11.360buyimg.com//n0/jfs/t1879/84/1702720080/289842/22f762f0/56678768Neddcefec.jpg",
+          "images": ["//img11.360buyimg.com//n0/jfs/t1879/84/1702720080/289842/22f762f0/56678768Neddcefec.jpg","//img11.360buyimg.com/n1/jfs/t1993/214/1664371856/295130/39f1dca9/56678776N98e2ad14.jpg"],
+          "type":[
+            {
+              "Name":"豆沙",
+              "weight": 300,
+              "Price":10,
+              "oldprice":130,
+              "count":1,
+              "no":1002,
+              "isDefault":true
+            },
+            {
+              "Name":"水果馅",
+              "weight": 500,
+              "Price":20,
+              "oldprice":130,
+              "count":1,
+              "no":1002,
+              "isDefault":true
+            }
+          ]
+        },
+        {
+          "Name": "故黄果园—糖水黄桃罐头",
+          "Description": "砀山黄桃是安徽省宿州市砀山县的特产。砀山黄桃品质超群，果肉金黄，无红色素，做出的罐头不浑汤，酸甜适中。",
+          "Price": 128,
+          "minprice": 23,
+          "maxprice": 128,
+          "originalprice": 149,
+          "sales": 19,
+          "post": "5元",
+          "Stock": 90,
+          "Image": "http://www.cntc.com/images/201607/goods_img/759_G_1469844653364.jpg",
+          "images": ["http://www.cntc.com/images/201607/goods_img/759_G_1469844653364.jpg","http://www.cntc.com/images/201607/goods_img/759_P_1469844654326.jpg"],
+          "type":[
+            {
+              "Name":"糖水黄桃",
+              "weight": 300,
+              "Price": 23,
+              "oldprice":30,
+              "count":1,
+              "no":1002
+            },
+            {
+              "Name":"糖水黄桃",
+              "weight": 600,
+              "Price": 40,
+              "oldprice":49,
+              "count":1,
+              "no":1003
+            }
+          ]
+        },
+        {
+          "Name": "贵州地方特色美食品臭豆腐",
+          "Description": "野谷草红豆腐乳酶豆腐调味品 油和素两种口味 开胃下饭菜",
+          "Price": 8.8,
+          "minprice": 8.8,
+          "maxprice": 9.9,
+          "originalprice": 9.9,
+          "sales": 29,
+          "post": "包邮",
+          "Stock": 28,
+          "Image": "//img13.360buyimg.com/n1/jfs/t4555/354/2281696908/370012/6ea37e83/58edd5b1N3690414b.jpg",
+          "images": ["//img13.360buyimg.com/n1/jfs/t4555/354/2281696908/370012/6ea37e83/58edd5b1N3690414b.jpg","//img13.360buyimg.com/n1/jfs/t3889/77/1768919703/486401/ff96add6/58954ebcN4f77afff.jpg"],
+          "type":[
+            {
+              "Name":"原味",
+              "weight": 300,
+              "Price": 8.8,
+              "oldprice":9.9,
+              "count":1,
+              "no":1001
+            }
+          ]
+        }
+      ],
+  "shopcart":
+      [
+        {
+          "Name": "故黄果园—糖水黄桃罐头",
+          "Image": "http://www.cntc.com/images/201607/goods_img/759_G_1469844653364.jpg",
+          "Price":28.6,
+          "count":1,
+          "type":"原味",
+          "weight": 300
+        },
+        {
+          "Name": "五芳斋速冻豆沙粽",
+          "Image": "//img11.360buyimg.com//n0/jfs/t1879/84/1702720080/289842/22f762f0/56678768Neddcefec.jpg",
+          "Price":39.8,
+          "count":1,
+          "type":"豆沙",
+          "weight": 200
+        },
+        {
+          "Name": "白茶",
+          "Image": "//img13.360buyimg.com/n1/g13/M02/0A/05/rBEhVFNg23gIAAAAAAHofexJtgQAAMsyADuFAUAAeiV322.jpg",
+          "Price":89,
+          "count":1,
+          "type":"白茶",
+          "weight": 300
+        },
+        {
+          "Name": "蜂蜜",
+          "Image": "//img12.360buyimg.com/n1/jfs/t3961/352/1275511117/226821/75b39fcf/586f5c9eNd1834c04.jpg",
+          "Price":0.01,
+          "count":1,
+          "type":"桂花蜜",
+          "weight": 49
+        }
+      ],
+  "address":
+      [
+        {
+          "addressId":10001,
+          "Name": "小金",
+          "phone": 13547896596,
+           "addr": "深圳市福田区保税区金花路29号  华宝一号大厦",
+          "isDefault": true
+
+        },
+        {
+          "addressId":10002,
+          "Name": "小明",
+          "phone": 1598698789,
+          "addr": "深圳市福田区保税区金花路29号  华宝一号大厦",
+          "isDefault": false
+        },
+        {
+          "addressId":10003,
+          "Name": "王全",
+          "phone": 1569869635,
+          "addr": "深圳市福田区保税区金花路29号  华宝一号大厦",
+          "isDefault": false
+        },
+        {
+          "addressId":10002,
+          "Name": "小明",
+          "phone": 1598698789,
+          "addr": "深圳市福田区保税区金花路29号  华宝一号大厦",
+          "isDefault": false
+        },
+        {
+          "addressId":10003,
+          "Name": "王全",
+          "phone": 1569869635,
+          "addr": "深圳市福田区保税区金花路29号  华宝一号大厦",
+          "isDefault": false
+        }
+      ],
+  "comment":
+      [
+        {
+          "avatar": "",
+          "Name":"李小小明",
+          "date":"2017年4月18日",
+          "time":"21:40:59",
+          "content":"蜂蜜很好喝，很适合养生，经常喝一点，支持这家蜂蜜，棒棒哒。蜂蜜很好喝，很适合养生，经常喝一点，支持这家蜂蜜，棒棒哒。蜂蜜很好喝，很适合养生，经常喝一点，支持这家蜂蜜，棒棒哒。",
+          "images":["http://img2.imgtn.bdimg.com/it/u=1144161154,3169091978&fm=23&gp=0.jpg","http://img2.imgtn.bdimg.com/it/u=711702262,4127865506&fm=23&gp=0.jpg","http://img4.imgtn.bdimg.com/it/u=3405023757,4062327407&fm=23&gp=0.jpg"]
+        },
+        {
+          "avatar": "",
+          "Name":"张小小小明",
+          "date":"2017年4月18日",
+          "time":"21:40:59",
+          "content":"蜂蜜很好喝，很适合养生，经常喝一点，支持这家蜂蜜，棒棒哒。",
+          "images":["http://img2.imgtn.bdimg.com/it/u=1144161154,3169091978&fm=23&gp=0.jpg","http://img2.imgtn.bdimg.com/it/u=711702262,4127865506&fm=23&gp=0.jpg","http://img4.imgtn.bdimg.com/it/u=3405023757,4062327407&fm=23&gp=0.jpg"]
+        },
+        {
+          "avatar": "",
+          "Name":"王小明",
+          "date":"2017年4月18日",
+          "time":"21:40:59",
+          "content":"蜂蜜很好喝，很适合养生，经常喝一点，支持这家蜂蜜，棒棒哒。",
+          "images":["http://img2.imgtn.bdimg.com/it/u=1144161154,3169091978&fm=23&gp=0.jpg","http://img2.imgtn.bdimg.com/it/u=711702262,4127865506&fm=23&gp=0.jpg","http://img4.imgtn.bdimg.com/it/u=3405023757,4062327407&fm=23&gp=0.jpg"]
+        }
+      ],
+  "order":
+      [
+        {
+          "Name":"蜂蜜",
+          "Image":"//img12.360buyimg.com/n1/jfs/t3961/352/1275511117/226821/75b39fcf/586f5c9eNd1834c04.jpg",
+          "specification": "450g",
+          "Price":59,
+          "oldprice":89,
+          "count":1
+        },
+        {
+          "Name":"白茶",
+          "Image":"////img13.360buyimg.com/n1/g13/M02/0A/05/rBEhVFNg23gIAAAAAAHofexJtgQAAMsyADuFAUAAeiV322.jpg",
+          "specification": "500g",
+          "Price":89,
+          "oldprice":99,
+          "count":1
+        },
+        {
+          "Name":"贵州地方特色美食品臭豆腐",
+          "Image":"//img13.360buyimg.com/n1/jfs/t4555/354/2281696908/370012/6ea37e83/58edd5b1N3690414b.jpg",
+          "specification": "300g",
+          "Price":8.8,
+          "oldprice":9.9,
+          "count":1
+        }
+      ],
+  "collection":
+      [
+        {
+          "Image":"../static/img/mall/tea.jpg",
+          "data": "丝滑拿铁三合一速溶咖啡云南小粒咖啡 18g*20包",
+          "count": 1,
+          "Price": 19
+        },
+        {
+          "Image":"../static/img/mall/tea.jpg",
+          "data": "丝滑拿铁三合一速溶咖啡云南小粒咖啡 18g*20包",
+          "count": 1,
+          "Price": 19
+        },
+        {
+          "Image":"../static/img/mall/tea.jpg",
+          "data": "丝滑拿铁三合一速溶咖啡云南小粒咖啡 18g*20包",
+          "count": 1,
+          "Price": 19
+        },
+        {
+          "Image":"../static/img/mall/tea.jpg",
+          "data": "丝滑拿铁三合一速溶咖啡云南小粒咖啡 18g*20包",
+          "count": 1,
+          "Price": 19
+        }
+      ]
+
+}
+
